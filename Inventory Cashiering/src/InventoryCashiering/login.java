@@ -269,12 +269,12 @@ public class login extends javax.swing.JFrame {
           } else if ("active".equals(status) && "staff".equals(accountrole)) {
             JOptionPane.showMessageDialog(this, "Welcome to HoleBunchSweetShop");
             JOptionPane.showMessageDialog(this, "Successfully logined as an Staff");
-            (new staff()).setVisible(true);
+            (new staffportal()).setVisible(true);
             dispose();
           } else if ("active".equals(status) && "cashier".equals(accountrole)) {
             JOptionPane.showMessageDialog(this, "Welcome to HoleBunchSweetShop");
             JOptionPane.showMessageDialog(this, "Successfully logined as an Cashier");
-            (new cashier()).setVisible(true);
+            (new cashierportal()).setVisible(true);
             dispose();
           } else if ("active".equals(status) && "admin".equals(accountrole)) {
             JOptionPane.showMessageDialog(this, "Welcome to HoleBunchSweetShop");
